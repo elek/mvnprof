@@ -1,0 +1,301 @@
+2011.10.09 20:56:35.358 [INFO] Scanning for projects...
+2011.10.09 20:56:35.560 [WARNING] 
+2011.10.09 20:56:35.560 [WARNING] Some problems were encountered while building the effective model for org.jf:dexlib:jar:1.2.7-dev
+2011.10.09 20:56:35.560 [WARNING] 'version' contains an expression but should be a constant. @ org.jf:dexlib:${aversion}, /home/eszti/projects/smali-read-only/dexlib/pom.xml, line 7, column 14
+2011.10.09 20:56:35.560 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.jf:smali-pom:1.0-SNAPSHOT, /home/eszti/projects/smali-read-only/pom.xml, line 14, column 21
+2011.10.09 20:56:35.561 [WARNING] 'reporting.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.jf:dexlib:${aversion}, /home/eszti/projects/smali-read-only/dexlib/pom.xml, line 15, column 18
+2011.10.09 20:56:35.561 [WARNING] 
+2011.10.09 20:56:35.561 [WARNING] Some problems were encountered while building the effective model for org.jf:smali:jar:1.2.7-dev
+2011.10.09 20:56:35.561 [WARNING] 'version' contains an expression but should be a constant. @ org.jf:smali:${aversion}, /home/eszti/projects/smali-read-only/smali/pom.xml, line 7, column 14
+2011.10.09 20:56:35.562 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.jf:smali-pom:1.0-SNAPSHOT, /home/eszti/projects/smali-read-only/pom.xml, line 14, column 21
+2011.10.09 20:56:35.562 [WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+2011.10.09 20:56:35.562 [WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+2011.10.09 20:56:35.562 [WARNING] 
+2011.10.09 20:56:35.563 [WARNING] Some problems were encountered while building the effective model for org.jf:baksmali:jar:1.2.7-dev
+2011.10.09 20:56:35.563 [WARNING] 'version' contains an expression but should be a constant. @ org.jf:baksmali:${aversion}, /home/eszti/projects/smali-read-only/baksmali/pom.xml, line 7, column 14
+2011.10.09 20:56:35.563 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.jf:smali-pom:1.0-SNAPSHOT, /home/eszti/projects/smali-read-only/pom.xml, line 14, column 21
+2011.10.09 20:56:35.563 [WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+2011.10.09 20:56:35.564 [WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+2011.10.09 20:56:35.564 [WARNING] 
+2011.10.09 20:56:35.564 [WARNING] Some problems were encountered while building the effective model for org.jf:util:jar:1.2.7-dev
+2011.10.09 20:56:35.564 [WARNING] 'version' contains an expression but should be a constant. @ org.jf:util:${aversion}, /home/eszti/projects/smali-read-only/util/pom.xml, line 7, column 14
+2011.10.09 20:56:35.565 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.jf:smali-pom:1.0-SNAPSHOT, /home/eszti/projects/smali-read-only/pom.xml, line 14, column 21
+2011.10.09 20:56:35.565 [WARNING] 
+2011.10.09 20:56:35.565 [WARNING] Some problems were encountered while building the effective model for org.jf:maven-smali-plugin:maven-plugin:1.2.7-dev
+2011.10.09 20:56:35.565 [WARNING] 'version' contains an expression but should be a constant. @ org.jf:maven-smali-plugin:${aversion}, /home/eszti/projects/smali-read-only/maven-smali-plugin/pom.xml, line 11, column 14
+2011.10.09 20:56:35.566 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.jf:smali-pom:1.0-SNAPSHOT, /home/eszti/projects/smali-read-only/pom.xml, line 14, column 21
+2011.10.09 20:56:35.566 [WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+2011.10.09 20:56:35.566 [WARNING] 
+2011.10.09 20:56:35.566 [WARNING] Some problems were encountered while building the effective model for org.jf:smali-pom:pom:1.0-SNAPSHOT
+2011.10.09 20:56:35.566 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 14, column 21
+2011.10.09 20:56:35.567 [WARNING] 
+2011.10.09 20:56:35.567 [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+2011.10.09 20:56:35.567 [WARNING] 
+2011.10.09 20:56:35.567 [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+2011.10.09 20:56:35.568 [WARNING] 
+2011.10.09 20:56:35.578 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:35.579 [INFO] Reactor Build Order:
+2011.10.09 20:56:35.579 [INFO] 
+2011.10.09 20:56:35.579 [INFO] smali-pom
+2011.10.09 20:56:35.579 [INFO] dexlib
+2011.10.09 20:56:35.579 [INFO] util
+2011.10.09 20:56:35.580 [INFO] smali
+2011.10.09 20:56:35.580 [INFO] baksmali
+2011.10.09 20:56:35.580 [INFO] maven-smali-plugin Maven Mojo
+2011.10.09 20:56:35.583 [INFO]                                                                         
+2011.10.09 20:56:35.583 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:35.583 [INFO] Building smali-pom 1.0-SNAPSHOT
+2011.10.09 20:56:35.584 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:35.781 [INFO] 
+2011.10.09 20:56:35.781 [INFO] --- maven-install-plugin:2.3.1:install (default-install) @ smali-pom ---
+2011.10.09 20:56:36.202 [INFO] Installing /home/eszti/projects/smali-read-only/pom.xml to /home/eszti/.m2/repository/org/jf/smali-pom/1.0-SNAPSHOT/smali-pom-1.0-SNAPSHOT.pom
+2011.10.09 20:56:36.250 [INFO]                                                                         
+2011.10.09 20:56:36.251 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:36.251 [INFO] Building dexlib 1.2.7-dev
+2011.10.09 20:56:36.251 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:36.435 [INFO] 
+2011.10.09 20:56:36.436 [INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ dexlib ---
+2011.10.09 20:56:36.869 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:36.869 [INFO] skip non existing resourceDirectory /home/eszti/projects/smali-read-only/dexlib/src/main/resources
+2011.10.09 20:56:36.871 [INFO] 
+2011.10.09 20:56:36.871 [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ dexlib ---
+2011.10.09 20:56:37.302 [INFO] Nothing to compile - all classes are up to date
+2011.10.09 20:56:37.303 [INFO] 
+2011.10.09 20:56:37.303 [INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ dexlib ---
+2011.10.09 20:56:37.310 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:37.311 [INFO] skip non existing resourceDirectory /home/eszti/projects/smali-read-only/dexlib/src/test/resources
+2011.10.09 20:56:37.311 [INFO] 
+2011.10.09 20:56:37.311 [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ dexlib ---
+2011.10.09 20:56:37.317 [INFO] No sources to compile
+2011.10.09 20:56:37.318 [INFO] 
+2011.10.09 20:56:37.318 [INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ dexlib ---
+2011.10.09 20:56:37.624 [INFO] No tests to run.
+2011.10.09 20:56:37.639 [INFO] Surefire report directory: /home/eszti/projects/smali-read-only/dexlib/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+2011.10.09 20:56:38.563 [INFO] 
+2011.10.09 20:56:38.563 [INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ dexlib ---
+2011.10.09 20:56:39.233 [INFO] 
+2011.10.09 20:56:39.233 [INFO] --- maven-install-plugin:2.3.1:install (default-install) @ dexlib ---
+2011.10.09 20:56:39.238 [INFO] Installing /home/eszti/projects/smali-read-only/dexlib/target/dexlib-1.2.7-dev.jar to /home/eszti/.m2/repository/org/jf/dexlib/1.2.7-dev/dexlib-1.2.7-dev.jar
+2011.10.09 20:56:39.239 [INFO] Installing /home/eszti/projects/smali-read-only/dexlib/pom.xml to /home/eszti/.m2/repository/org/jf/dexlib/1.2.7-dev/dexlib-1.2.7-dev.pom
+2011.10.09 20:56:39.258 [INFO]                                                                         
+2011.10.09 20:56:39.259 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:39.259 [INFO] Building util 1.2.7-dev
+2011.10.09 20:56:39.259 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:39.283 [INFO] 
+2011.10.09 20:56:39.283 [INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ util ---
+2011.10.09 20:56:39.284 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:39.285 [INFO] skip non existing resourceDirectory /home/eszti/projects/smali-read-only/util/src/main/resources
+2011.10.09 20:56:39.285 [INFO] 
+2011.10.09 20:56:39.285 [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ util ---
+2011.10.09 20:56:39.309 [INFO] Nothing to compile - all classes are up to date
+2011.10.09 20:56:39.310 [INFO] 
+2011.10.09 20:56:39.310 [INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ util ---
+2011.10.09 20:56:39.312 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:39.312 [INFO] skip non existing resourceDirectory /home/eszti/projects/smali-read-only/util/src/test/resources
+2011.10.09 20:56:39.312 [INFO] 
+2011.10.09 20:56:39.312 [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ util ---
+2011.10.09 20:56:39.334 [INFO] Nothing to compile - all classes are up to date
+2011.10.09 20:56:39.335 [INFO] 
+2011.10.09 20:56:39.335 [INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ util ---
+2011.10.09 20:56:39.346 [INFO] Surefire report directory: /home/eszti/projects/smali-read-only/util/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+2011.10.09 20:56:39.844 [INFO] 
+2011.10.09 20:56:39.844 [INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ util ---
+2011.10.09 20:56:39.976 [INFO] 
+2011.10.09 20:56:39.977 [INFO] --- maven-install-plugin:2.3.1:install (default-install) @ util ---
+2011.10.09 20:56:39.978 [INFO] Installing /home/eszti/projects/smali-read-only/util/target/util-1.2.7-dev.jar to /home/eszti/.m2/repository/org/jf/util/1.2.7-dev/util-1.2.7-dev.jar
+2011.10.09 20:56:39.979 [INFO] Installing /home/eszti/projects/smali-read-only/util/pom.xml to /home/eszti/.m2/repository/org/jf/util/1.2.7-dev/util-1.2.7-dev.pom
+2011.10.09 20:56:39.999 [INFO]                                                                         
+2011.10.09 20:56:39.999 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:40.000 [INFO] Building smali 1.2.7-dev
+2011.10.09 20:56:40.000 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:40.042 [INFO] 
+2011.10.09 20:56:40.043 [INFO] --- maven-jflex-plugin:1.4.3:generate (default) @ smali ---
+2011.10.09 20:56:40.159 [INFO]   smaliFlexLexer.java is up to date.
+2011.10.09 20:56:40.160 [INFO] 
+2011.10.09 20:56:40.160 [INFO] --- build-helper-maven-plugin:1.2:add-test-source (add generated test sources) @ smali ---
+2011.10.09 20:56:40.211 [INFO] Test Source directory: /home/eszti/projects/smali-read-only/smali/target/generated-test-sources added.
+2011.10.09 20:56:40.212 [INFO] 
+2011.10.09 20:56:40.212 [INFO] --- antlr3-maven-plugin:3.2:antlr (smaliLexer) @ smali ---
+2011.10.09 20:56:40.501 [INFO] ANTLR: Processing source directory /home/eszti/projects/smali-read-only/smali/src/main/antlr3
+2011.10.09 20:56:40.862 Grammar /home/eszti/projects/smali-read-only/smali/src/main/antlr3/org/jf/smali/smaliLexer.g is up to date - build skipped
+2011.10.09 20:56:40.862 [INFO] 
+2011.10.09 20:56:40.862 [INFO] --- antlr3-maven-plugin:3.2:antlr (smaliParser) @ smali ---
+2011.10.09 20:56:40.867 [INFO] ANTLR: Processing source directory /home/eszti/projects/smali-read-only/smali/src/main/antlr3
+2011.10.09 20:56:41.173 Grammar /home/eszti/projects/smali-read-only/smali/src/main/antlr3/org/jf/smali/smaliParser.g is up to date - build skipped
+2011.10.09 20:56:41.177 [INFO] 
+2011.10.09 20:56:41.177 [INFO] --- antlr3-maven-plugin:3.2:antlr (smaliTreeWalker) @ smali ---
+2011.10.09 20:56:41.182 [INFO] ANTLR: Processing source directory /home/eszti/projects/smali-read-only/smali/src/main/antlr3
+2011.10.09 20:56:41.433 Grammar /home/eszti/projects/smali-read-only/smali/src/main/antlr3/org/jf/smali/smaliTreeWalker.g is up to date - build skipped
+2011.10.09 20:56:41.433 [INFO] 
+2011.10.09 20:56:41.434 [INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ smali ---
+2011.10.09 20:56:41.435 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2011.10.09 20:56:41.443 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:41.452 [INFO] Copying 1 resource
+2011.10.09 20:56:41.506 [INFO] 
+2011.10.09 20:56:41.506 [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ smali ---
+2011.10.09 20:56:41.559 [INFO] Nothing to compile - all classes are up to date
+2011.10.09 20:56:41.560 [INFO] 
+2011.10.09 20:56:41.560 [INFO] --- antlr3-maven-plugin:3.2:antlr (expectedTokensTestGrammar) @ smali ---
+2011.10.09 20:56:41.564 [INFO] ANTLR: Processing source directory /home/eszti/projects/smali-read-only/smali/src/test/antlr3
+2011.10.09 20:56:41.688 Grammar /home/eszti/projects/smali-read-only/smali/src/test/antlr3/org/jf/smali/expectedTokensTestGrammar.g is up to date - build skipped
+2011.10.09 20:56:41.688 [INFO] 
+2011.10.09 20:56:41.688 [INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ smali ---
+2011.10.09 20:56:41.694 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:41.719 [INFO] Copying 28 resources
+2011.10.09 20:56:41.724 [INFO] 
+2011.10.09 20:56:41.724 [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ smali ---
+2011.10.09 20:56:41.739 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2011.10.09 20:56:41.740 [INFO] Compiling 2 source files to /home/eszti/projects/smali-read-only/smali/target/test-classes
+2011.10.09 20:56:42.794 [INFO] 
+2011.10.09 20:56:42.794 [INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ smali ---
+2011.10.09 20:56:42.801 [INFO] Surefire report directory: /home/eszti/projects/smali-read-only/smali/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ByteLiteralTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec
+Running LongLiteralTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running IntLiteralTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running ShortLiteralTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running LexerTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 sec
+
+Results :
+
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 0
+
+2011.10.09 20:56:43.598 [INFO] 
+2011.10.09 20:56:43.598 [INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ smali ---
+2011.10.09 20:56:43.986 [INFO] Building jar: /home/eszti/projects/smali-read-only/smali/target/smali-1.2.7-dev.jar
+2011.10.09 20:56:44.185 [INFO] 
+2011.10.09 20:56:44.185 [INFO] --- maven-install-plugin:2.3.1:install (default-install) @ smali ---
+2011.10.09 20:56:44.187 [INFO] Installing /home/eszti/projects/smali-read-only/smali/target/smali-1.2.7-dev.jar to /home/eszti/.m2/repository/org/jf/smali/1.2.7-dev/smali-1.2.7-dev.jar
+2011.10.09 20:56:44.189 [INFO] Installing /home/eszti/projects/smali-read-only/smali/pom.xml to /home/eszti/.m2/repository/org/jf/smali/1.2.7-dev/smali-1.2.7-dev.pom
+2011.10.09 20:56:44.191 [INFO]                                                                         
+2011.10.09 20:56:44.192 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:44.192 [INFO] Building baksmali 1.2.7-dev
+2011.10.09 20:56:44.192 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:44.198 [INFO] 
+2011.10.09 20:56:44.198 [INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ baksmali ---
+2011.10.09 20:56:44.200 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2011.10.09 20:56:44.200 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:44.201 [INFO] Copying 1 resource
+2011.10.09 20:56:44.202 [INFO] 
+2011.10.09 20:56:44.202 [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ baksmali ---
+2011.10.09 20:56:44.248 [INFO] Nothing to compile - all classes are up to date
+2011.10.09 20:56:44.249 [INFO] 
+2011.10.09 20:56:44.249 [INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ baksmali ---
+2011.10.09 20:56:44.251 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:44.251 [INFO] skip non existing resourceDirectory /home/eszti/projects/smali-read-only/baksmali/src/test/resources
+2011.10.09 20:56:44.251 [INFO] 
+2011.10.09 20:56:44.251 [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ baksmali ---
+2011.10.09 20:56:44.254 [INFO] No sources to compile
+2011.10.09 20:56:44.254 [INFO] 
+2011.10.09 20:56:44.254 [INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ baksmali ---
+2011.10.09 20:56:44.258 [INFO] No tests to run.
+2011.10.09 20:56:44.259 [INFO] Surefire report directory: /home/eszti/projects/smali-read-only/baksmali/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+2011.10.09 20:56:44.472 [INFO] 
+2011.10.09 20:56:44.473 [INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ baksmali ---
+2011.10.09 20:56:44.633 [INFO] Building jar: /home/eszti/projects/smali-read-only/baksmali/target/baksmali-1.2.7-dev.jar
+2011.10.09 20:56:44.692 [INFO] 
+2011.10.09 20:56:44.693 [INFO] --- maven-install-plugin:2.3.1:install (default-install) @ baksmali ---
+2011.10.09 20:56:44.694 [INFO] Installing /home/eszti/projects/smali-read-only/baksmali/target/baksmali-1.2.7-dev.jar to /home/eszti/.m2/repository/org/jf/baksmali/1.2.7-dev/baksmali-1.2.7-dev.jar
+2011.10.09 20:56:44.695 [INFO] Installing /home/eszti/projects/smali-read-only/baksmali/pom.xml to /home/eszti/.m2/repository/org/jf/baksmali/1.2.7-dev/baksmali-1.2.7-dev.pom
+2011.10.09 20:56:44.697 [INFO]                                                                         
+2011.10.09 20:56:44.697 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:44.698 [INFO] Building maven-smali-plugin Maven Mojo 1.2.7-dev
+2011.10.09 20:56:44.698 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:44.819 [INFO] 
+2011.10.09 20:56:44.820 [INFO] --- maven-plugin-plugin:2.7:descriptor (default-descriptor) @ maven-smali-plugin ---
+2011.10.09 20:56:45.144 [WARNING] Using platform encoding (UTF-8 actually) to read mojo metadata, i.e. build is platform dependent!
+2011.10.09 20:56:45.164 [INFO] Applying mojo extractor for language: java
+2011.10.09 20:56:45.347 [INFO] Mojo extractor for language: java found 1 mojo descriptors.
+2011.10.09 20:56:45.356 [INFO] Applying mojo extractor for language: bsh
+2011.10.09 20:56:45.357 [INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+2011.10.09 20:56:45.400 [INFO] 
+2011.10.09 20:56:45.400 [INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ maven-smali-plugin ---
+2011.10.09 20:56:45.402 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:45.402 [INFO] skip non existing resourceDirectory /home/eszti/projects/smali-read-only/maven-smali-plugin/src/main/resources
+2011.10.09 20:56:45.403 [INFO] 
+2011.10.09 20:56:45.403 [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ maven-smali-plugin ---
+2011.10.09 20:56:45.407 [INFO] Nothing to compile - all classes are up to date
+2011.10.09 20:56:45.408 [INFO] 
+2011.10.09 20:56:45.408 [INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ maven-smali-plugin ---
+2011.10.09 20:56:45.414 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2011.10.09 20:56:45.415 [INFO] skip non existing resourceDirectory /home/eszti/projects/smali-read-only/maven-smali-plugin/src/test/resources
+2011.10.09 20:56:45.415 [INFO] 
+2011.10.09 20:56:45.415 [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ maven-smali-plugin ---
+2011.10.09 20:56:45.418 [INFO] No sources to compile
+2011.10.09 20:56:45.418 [INFO] 
+2011.10.09 20:56:45.418 [INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ maven-smali-plugin ---
+2011.10.09 20:56:45.429 [INFO] No tests to run.
+2011.10.09 20:56:45.431 [INFO] Surefire report directory: /home/eszti/projects/smali-read-only/maven-smali-plugin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+2011.10.09 20:56:46.006 [INFO] 
+2011.10.09 20:56:46.006 [INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ maven-smali-plugin ---
+2011.10.09 20:56:46.322 [INFO] Building jar: /home/eszti/projects/smali-read-only/maven-smali-plugin/target/maven-smali-plugin-1.2.7-dev.jar
+2011.10.09 20:56:46.340 [INFO] 
+2011.10.09 20:56:46.340 [INFO] --- maven-plugin-plugin:2.7:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ maven-smali-plugin ---
+2011.10.09 20:56:46.345 [INFO] 
+2011.10.09 20:56:46.345 [INFO] --- maven-install-plugin:2.3.1:install (default-install) @ maven-smali-plugin ---
+2011.10.09 20:56:46.353 [INFO] Installing /home/eszti/projects/smali-read-only/maven-smali-plugin/target/maven-smali-plugin-1.2.7-dev.jar to /home/eszti/.m2/repository/org/jf/maven-smali-plugin/1.2.7-dev/maven-smali-plugin-1.2.7-dev.jar
+2011.10.09 20:56:46.356 [INFO] Installing /home/eszti/projects/smali-read-only/maven-smali-plugin/pom.xml to /home/eszti/.m2/repository/org/jf/maven-smali-plugin/1.2.7-dev/maven-smali-plugin-1.2.7-dev.pom
+2011.10.09 20:56:46.377 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:46.377 [INFO] Reactor Summary:
+2011.10.09 20:56:46.378 [INFO] 
+2011.10.09 20:56:46.387 [INFO] smali-pom ......................................... SUCCESS [0.667s]
+2011.10.09 20:56:46.387 [INFO] dexlib ............................................ SUCCESS [3.008s]
+2011.10.09 20:56:46.387 [INFO] util .............................................. SUCCESS [0.741s]
+2011.10.09 20:56:46.388 [INFO] smali ............................................. SUCCESS [4.192s]
+2011.10.09 20:56:46.388 [INFO] baksmali .......................................... SUCCESS [0.506s]
+2011.10.09 20:56:46.388 [INFO] maven-smali-plugin Maven Mojo ..................... SUCCESS [1.680s]
+2011.10.09 20:56:46.388 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:46.394 [INFO] BUILD SUCCESS
+2011.10.09 20:56:46.394 [INFO] ------------------------------------------------------------------------
+2011.10.09 20:56:46.394 [INFO] Total time: 11.074s
+2011.10.09 20:56:46.394 [INFO] Finished at: Sun Oct 09 20:56:46 CEST 2011
+2011.10.09 20:56:46.597 [INFO] Final Memory: 19M/229M
+2011.10.09 20:56:46.597 [INFO] ------------------------------------------------------------------------
